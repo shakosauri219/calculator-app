@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+
+  <body id="body">
+    <header>
+      <h1 class="calc">calc</h1>
+      <div class="toggle-div">
+        <h2 class="logo">THEME</h2>
+        <div class="toggleAndNums">
+          <div class="toggle-nums">
+            <p class="toggle-nums1">1</p>
+            <p class="toggle-nums1">2</p>
+            <p class="toggle-nums1">3</p>
+          </div>
+          <div class="toggle-switch">
+            <div
+              class="theme"
+              style="
+                width: 16px;
+                height: 16px;
+                background: #d03f2f;
+                border-radius: 9999px;
+              "
+            ></div>
+
+            <div
+              class="theme"
+              style="
+                width: 16px;
+                height: 16px;
+                background: #c85402;
+                border-radius: 9999px;
+                opacity: 0;
+              "
+            ></div>
+
+            <div
+              class="theme"
+              style="
+                width: 16px;
+                height: 16px;
+                background: #00ded0;
+                border-radius: 9999px;
+                opacity: 0;
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="input">
+      <p class="inputinside"></p>
+      <p class="output"></p>
+    </div>
+
+    <main class="container">
+      <button class="small-button button" value="7">7</button>
+      <button class="small-button button" value="8">8</button>
+      <button class="small-button button" value="9">9</button>
+      <button class="delete-button button" value="backspace">DEL</button>
+      <button class="small-button button" value="4">4</button>
+      <button class="small-button button" value="5">5</button>
+      <button class="small-button button" value="6">6</button>
+      <button class="small-button button" value="+">+</button>
+      <button class="small-button button" value="1">1</button>
+      <button class="small-button button" value="2">2</button>
+      <button class="small-button button" value="3">3</button>
+      <button class="small-button button" value="-">-</button>
+      <button class="small-button button" value=".">.</button>
+      <button class="small-button button" value="0">0</button>
+      <button class="small-button button" value="/">/</button>
+      <button class="small-button button" value="*">x</button>
+      <button class="big-button-reset button" value="clear">RESET</button>
+      <button class="big-button-equal button" value="=">=</button>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

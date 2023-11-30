@@ -1,0 +1,181 @@
+body {
+  background: #3a4663;
+  padding: 30px 30px;
+  margin: 0px;
+  font-family: "League Spartan";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "League Spartan";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.533px;
+  margin: 0px;
+}
+
+header h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.toggle-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.toggleAndNums {
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+}
+
+.toggle-nums {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 4px;
+  transform: translateY(-24px);
+}
+
+.toggle-nums p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+}
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 71px;
+  height: 26px;
+  justify-content: space-around;
+  border-radius: 13px;
+  background: #242d44;
+}
+
+.input {
+  width: 327px;
+  margin-top: 32px;
+  background: #181f33;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 10px;
+}
+
+.output {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: -0.6666666865348816px;
+  text-align: right;
+  color: #ffffff;
+  margin: 0px;
+  margin-right: 24px;
+  height: 37px;
+}
+
+.inputinside {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: -0.6666666865348816px;
+  text-align: right;
+  color: #ffffff;
+  margin: 0px;
+  margin-right: 24px;
+}
+
+.container {
+  width: 279px;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px;
+  gap: 13px;
+  margin-top: 24px;
+  background: #242d44;
+  border-radius: 10px;
+}
+
+.container .small-button {
+  border: none;
+  color: #434a59;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.533px;
+  width: 60px;
+  height: 64px;
+  border-radius: 5px;
+  background: #eae3dc;
+  box-shadow: 0px -4px 0px 0px #b3a497 inset;
+}
+
+.delete-button {
+  border: none;
+  width: 60px;
+  height: 64px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.333px;
+  border-radius: 5px;
+  background: #647198;
+  box-shadow: 0px -4px 0px 0px #414e73 inset;
+}
+
+.big-button-reset,
+.big-button-equal {
+  border: none;
+  width: 133px;
+  height: 64px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.333px;
+}
+
+.big-button-equal {
+  border-radius: 5px;
+  background: #d03f2f;
+  box-shadow: 0px -4px 0px 0px #93261a inset;
+  transform: translateX(73px);
+}
+
+.big-button-reset {
+  border-radius: 5px;
+  background: #647198;
+  box-shadow: 0px -4px 0px 0px #414e73 inset;
+}
